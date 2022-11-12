@@ -1,0 +1,53 @@
+.cardinfo {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 550px;
+    width: fit-content;
+    max-width: 650px;
+    height: fit-content;
+  }
+  
+  .cardinfo-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cardinfo-box-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .cardinfo-box-title p {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .cardinfo-box-title svg {
+    height: 18px;
+    width: 18px;
+  }
+   
+  .cardinfo-box ul {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+  }
+  .cardinfo-box ul li {
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .cardinfo-box ul .li-active {
+    box-shadow: 0 0 0 3px yellow; 
+    border: 2px solid red;
+    padding: 8px;
+  }
+ 
