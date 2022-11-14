@@ -7,6 +7,12 @@
     box-shadow:rgb(0 0 0 / 9%) 0px 9px 12px, rgb(0 0 0 / 6%) 0px 6px 6px;
     cursor: pointer;
   }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
    
   .card-title {
     font-weight: bold;
@@ -23,7 +29,6 @@
   .card-delete {
     cursor: pointer;
     opacity: 0.5;
-    margin-left: 150px;
   }
 
   .card-delete:hover {

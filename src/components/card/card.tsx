@@ -49,9 +49,14 @@ function Card({
         onClick={() => setShowModal(true)}
         style={{ background: cardColor }}
       >
-        <div className="card-title">
-          {card.title}
-          <DeleteIcon onClick={() => removeCard(boardId, card.id)} className='card-delete'/>
+        <div className="card-header">
+          <div className="card-title">
+            {card.title}
+          </div>
+          <DeleteIcon
+              onClick={() => removeCard(boardId, card.id)}
+              className="card-delete"
+            />
         </div>
 
         <div className="card-footer">
