@@ -23,7 +23,6 @@
   .card-delete {
     cursor: pointer;
     opacity: 0.5;
-    align-items: flex-start;
     margin-left: 150px;
   }
 
