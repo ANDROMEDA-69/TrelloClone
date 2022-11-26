@@ -53,15 +53,10 @@ function BoardList(): JSX.Element {
 
   const updateCard = (boardId: number, cardId: number, card: TrelloCard) => {
     const boardIndex = boards.findIndex((item) => item.id === boardId);
-    if (boardIndex < 0) return;
-
     const boardsList = [...boards];
     const cards = boardsList[boardIndex].cards;
     const cardIndex = cards.findIndex((item) => item.id === cardId);
-
-    if (cardIndex < 0) return;
     boardsList[boardIndex].cards[cardIndex] = card;
-
     setBoards(boardsList);
   };
 
